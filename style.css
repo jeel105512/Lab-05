@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -41,4 +41,114 @@ img{
     height: 300px;
     float: left;
     margin-right: 7px;
+} */
+
+@import url(./reset.css);
+
+/* defaults */
+*{
+    /* outline: 1px dashed #ccc; */
+    font-family: 'Poppins', sans-serif;
 }
+
+html, body, main, header, section{
+    height: 100%;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+p{
+    margin: 1.2em;
+    line-height: 1.5em;
+}
+/* defaults end */
+
+/* header */
+header{
+    background-image: url(./wallpapersden.com_watching-the-universe_1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hader-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hader-content > h1{
+    font-size: 42pt;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hader-content > p{
+    font-size: 18pt;
+}
+/* header end */
+
+/* main */
+section > h2{
+    font-size: 2.1em;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1.3em;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #f43a09 0%, #ffb766 100%);
+    color: #ffffff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.section-div{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+
+.section-div p{
+    padding: 1em;
+    font-size: 13pt;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.section-div p:nth-child(3){
+    color: #333 !important;
+}
+
+/* .section-div p:nth-child(even){
+    background-color: rgba(255, 139, 62, 0.3);
+} */
+
+.section-div p:nth-child(odd){
+    background: #ff6940;
+    color: #ffffff;
+}
+
+.section-div > img{
+    width: 300px;
+    float: left;
+    margin-right: 1em;
+}
+/* main end */
+
+/* footer */
+footer{
+    width: 100%;
+    height: 64px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #f43a09 0%, #ffb766 100%);
+    font-size: 18pt;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer end */
