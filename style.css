@@ -119,14 +119,14 @@ section > h2{
 }
 
 .section-div p:nth-child(3){
-    color: #333 !important;
+    color: rgb(165, 165, 165) !important;
 }
 
 /* .section-div p:nth-child(even){
     background-color: rgba(255, 139, 62, 0.3);
 } */
 
-.section-div p:nth-child(odd){
+.section-div p:nth-child(even){
     background: #ff6940;
     color: #ffffff;
 }
